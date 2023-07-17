@@ -1,0 +1,22 @@
+{
+  "name": "salon-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.3.33",
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express.js": "^1.0.0",
+    "openai": "^3.3.0",
+    "request": "^2.88.2"
+  }
+}

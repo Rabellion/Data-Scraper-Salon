@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Salons Near Me</title>
+</head>
+<body>
+<h1>Salons Near Me</h1>
+<ul>
+{% for salon in salons %}
+<li>{{ salon.name }}</li>
+{% endfor %}
+</ul>
+</body>
+</html>
